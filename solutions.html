@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Technical Solutions by JP IT Staffing - React, Node, AI/ML, Cloud Infrastructure. Engineered for high performance.">
+    <title>Technical Solutions | JP IT STAFFING</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-decor" aria-hidden="true">
+        <div class="shape-blob blob-1"></div>
+        <div class="shape-blob blob-2"></div>
+        <div class="shape-blob blob-3"></div>
+        <div class="shape-blob blob-4"></div>
+    </div>
+
+    <!-- Header -->
+    <!-- Header Top Utility Bar -->
+    <div class="header-top">
+        <div class="container">
+            <a href="#"><i class="far fa-question-circle"></i> Help & FAQs</a>
+            <a href="contact.html"><i class="far fa-paper-plane"></i> Contact us</a>
+        </div>
+    </div>
+
+    <header id="header" class="header blur-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">JP IT STAFFING</a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="clients.html">Clients</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="solutions.html" class="active">Solutions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-nav">Get Free Consultation</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title / Hero Lite -->
+    <section class="section bg-gradient-light pt-xl">
+        <div class="container">
+            <div class="section-title text-center fade-in">
+                <span class="subtitle">Global Solutions</span>
+                <h1>Engineered for Performance</h1>
+                <p class="section-desc">We specialize in providing high-performance talent across the most vital
+                    technologies of the modern tech stack.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 02: Expertise & Solutions -->
+    <section id="solutions" class="section">
+        <div class="container">
+            <div class="cards-grid">
+                <div class="glass-card feature-card fade-in-up">
+                    <div class="card-icon-wrapper"><i class="fab fa-react"></i></div>
+                    <h3>Frontend Engineering</h3>
+                    <p>React, Next.js, and modern UI frameworks to build stunning, high-performance web applications.
+                    </p>
+                </div>
+                <div class="glass-card feature-card fade-in-up delay-1">
+                    <div class="card-icon-wrapper"><i class="fab fa-node-js"></i></div>
+                    <h3>Backend & Scale</h3>
+                    <p>Node.js, Go, and Python to power scalable, distributed systems and real-time backend
+                        infrastructure.</p>
+                </div>
+                <div class="glass-card feature-card fade-in-up delay-2">
+                    <div class="card-icon-wrapper"><i class="fas fa-microchip"></i></div>
+                    <h3>AI & Data Science</h3>
+                    <p>Harnessing AI/ML Power and Big Data to build the foundation of future-proof digital solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="pill-grid mt-xl fade-in-up">
+                <div class="glass-pill"><i class="fab fa-aws"></i> Cloud Infrastructure</div>
+                <div class="glass-pill"><i class="fab fa-golang"></i> Distributed Systems</div>
+                <div class="glass-pill"><i class="fas fa-database"></i> Big Data</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="glass-card cta-banner fade-in-up">
+                <div class="cta-text">
+                    <h2>Ready to Scale Your <span class="text-gradient">Engineering Team?</span></h2>
+                    <p>Book a discovery call to find your specialized technical talent.</p>
+                </div>
+                <div class="cta-actions">
+                    <a href="contact.html" class="btn btn-primary glow-btn">Start Hiring</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-grid">
+                <!-- Column 1: Brand & Newsletter -->
+                <div class="footer-col brand-col">
+                    <h3>JP IT STAFFING</h3>
+                    <p>The premier bridge between global enterprise needs and top-tier IT talent. Specializing in
+                        high-performance offshore scaling.</p>
+                    <div class="footer-newsletter">
+                        <p><strong>Join our Tech Insights</strong></p>
+                        <form class="newsletter-form" id="newsletter-form">
+                            <input type="email" name="email" placeholder="Email address" class="form-control" required
+                                aria-label="Subscribe with Email">
+                            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+
+
+                <!-- Column 4: Contact & Social -->
+                <div class="footer-col">
+                    <h4>Get In Touch</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> it@jpitstaffing.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 30 N Gould St, WY 82801</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    </ul>
+                    <div class="social-links mt-3">
+                        <a href="#" class="glass-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="glass-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="glass-icon"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 JP IT Staffing LLC. <i class="fas fa-heart" style="color: #ff4d4d"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
