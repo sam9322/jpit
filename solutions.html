@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Solutions | JP IT STAFFING</title>
+  <meta name="description" content="Technical solutions from JP IT Staffing — Frontend, Backend, AI/ML, Cloud, Data Engineering and more. Elite offshore talent for every stack.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="header" class="header scrolled">
+    <div class="container">
+      <div class="logo"><a href="index.html"><img src="logo.png" alt="JP IT Staffing"></a></div>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="solutions.html" class="active">Solutions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Get Free Consultation</a>
+        <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+        <div class="mobile-toggle" id="mobile-toggle"><i class="fas fa-bars"></i></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="mesh-bg">
+      <div class="mesh-blob" style="width:600px;height:600px;background:rgba(124,58,237,0.2);top:-150px;right:-100px"></div>
+      <div class="mesh-blob" style="width:400px;height:400px;background:rgba(6,182,212,0.18);bottom:-100px;left:-100px;animation-delay:-10s"></div>
+    </div>
+    <div class="container page-hero-content">
+      <div class="section-label" style="justify-content:center;display:inline-flex">Technical Expertise</div>
+      <h1>Engineered for Performance</h1>
+      <p>We provide elite talent across every critical domain of the modern tech stack — so you can build faster without compromising on quality.</p>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS BENTO -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:56px">
+        <div class="section-label">Our Domains</div>
+        <h2 class="section-heading">Technology Specializations</h2>
+        <p class="section-sub">60+ specializations. Every role pre-vetted by our senior engineering team.</p>
+      </div>
+
+      <div class="bento-grid bento-3" style="grid-template-rows:auto auto">
+        <!-- Large card -->
+        <div class="bento-cell fade-in-up">
+          <div style="font-size:3rem;margin-bottom:16px">⚛️</div>
+          <div class="section-label" style="display:inline-flex;margin-bottom:12px">Most In-Demand</div>
+          <h3>Frontend Engineering</h3>
+          <p style="margin-bottom:20px">Pixel-perfect, performant, and accessible UIs built with the frameworks your users love.</p>
+          <div class="pills">
+            <span class="pill">React</span><span class="pill">Next.js</span><span class="pill">TypeScript</span><span class="pill">Vue</span><span class="pill">Angular</span><span class="pill">Svelte</span>
+          </div>
+        </div>
+
+        <div class="bento-cell fade-in-up delay-1">
+          <div class="bento-icon bento-icon-green"><i class="fab fa-node-js"></i></div>
+          <h3>Backend &amp; APIs</h3>
+          <p>Scalable services, distributed systems, and real-time infrastructure built for high availability.</p>
+          <div class="pills" style="margin-top:12px">
+            <span class="pill">Node.js</span><span class="pill">Go</span><span class="pill">Java</span><span class="pill">Python</span>
+          </div>
+        </div>
+
+        <div class="bento-cell fade-in-up delay-2">
+          <div class="bento-icon bento-icon-purple"><i class="fas fa-microchip"></i></div>
+          <h3>AI &amp; Machine Learning</h3>
+          <p>LLM integration, ML pipelines, computer vision, and predictive analytics for intelligent products.</p>
+          <div class="pills" style="margin-top:12px">
+            <span class="pill">Python</span><span class="pill">TensorFlow</span><span class="pill">LangChain</span>
+          </div>
+        </div>
+
+        <div class="bento-cell fade-in-up delay-1">
+          <div class="bento-icon bento-icon-teal"><i class="fab fa-aws"></i></div>
+          <h3>Cloud &amp; DevOps</h3>
+          <p>Multi-cloud architects and DevOps engineers who build resilient, secure, cost-optimized infrastructure.</p>
+          <div class="pills" style="margin-top:12px">
+            <span class="pill">AWS</span><span class="pill">GCP</span><span class="pill">Azure</span><span class="pill">Kubernetes</span>
+          </div>
+        </div>
+
+        <div class="bento-cell bento-cell-wide fade-in-up delay-2" style="display:flex;align-items:center;gap:40px;flex-wrap:wrap">
+          <div>
+            <div class="bento-icon bento-icon-teal"><i class="fas fa-database"></i></div>
+            <h3 style="font-size:1.5rem;margin-bottom:10px">Data Engineering &amp; Analytics</h3>
+            <p style="max-width:400px">Warehouse modernization, ETL pipelines, BI dashboards, and real-time analytics for data-driven decisions.</p>
+            <div class="pills" style="margin-top:16px">
+              <span class="pill">Spark</span>
+              <span class="pill">Snowflake</span>
+              <span class="pill">dbt</span>
+              <span class="pill">Tableau</span>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-left:auto;flex-shrink:0">
+            <div style="text-align:center;background:var(--surface);border:1px solid var(--surface-2);border-radius:16px;padding:20px 24px">
+              <div style="font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:var(--primary)">60+</div>
+              <div style="font-size:0.8rem;color:var(--text-muted)">Tech Stacks</div>
+            </div>
+            <div style="text-align:center;background:var(--surface);border:1px solid var(--surface-2);border-radius:16px;padding:20px 24px">
+              <div style="font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:var(--primary)">10k+</div>
+              <div style="font-size:0.8rem;color:var(--text-muted)">Active Developers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADDITIONAL DOMAINS -->
+  <section class="section" style="background:var(--surface)">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:56px">
+        <div class="section-label">More Specializations</div>
+        <h2 class="section-heading">Every Role, Every Stack</h2>
+        <p class="section-sub">From mobile to embedded systems — if it involves code, we have the talent.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="feature-card fade-in-up">
+          <div class="card-icon" style="background:rgba(245,158,11,0.1);color:#f59e0b"><i class="fas fa-mobile-screen"></i></div>
+          <h3>Mobile Development</h3>
+          <p>iOS, Android, and cross-platform React Native / Flutter engineers who ship polished apps users love.</p>
+          <div class="pills" style="margin-top:16px"><span class="pill">React Native</span><span class="pill">Flutter</span><span class="pill">Swift</span></div>
+        </div>
+        <div class="feature-card fade-in-up delay-1">
+          <div class="card-icon" style="background:rgba(239,68,68,0.1);color:#ef4444"><i class="fas fa-shield-halved"></i></div>
+          <h3>Security &amp; Compliance</h3>
+          <p>Cybersecurity engineers, penetration testers, and compliance specialists for regulated industries.</p>
+          <div class="pills" style="margin-top:16px"><span class="pill">OWASP</span><span class="pill">SOC2</span><span class="pill">ISO27001</span></div>
+        </div>
+        <div class="feature-card fade-in-up delay-2">
+          <div class="card-icon" style="background:rgba(16,185,129,0.1);color:#10b981"><i class="fas fa-infinity"></i></div>
+          <h3>QA &amp; Automation</h3>
+          <p>Manual and automated QA engineers who ensure your product ships with zero critical bugs every release.</p>
+          <div class="pills" style="margin-top:16px"><span class="pill">Cypress</span><span class="pill">Playwright</span><span class="pill">Selenium</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-banner fade-in-up">
+        <div class="cta-text">
+          <h2>Need a Specialist in Your <span class="gradient-text">Exact Stack?</span></h2>
+          <p>Book a discovery call and we'll find the perfect match from our vetted talent pool.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Find My Engineer <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>JP IT STAFFING</h3>
+          <p>The premier bridge between global enterprise needs and top-tier IT talent.</p>
+          <p class="footer-newsletter-label">Join our Tech Insights Newsletter</p>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" name="email" placeholder="Work email" class="form-control" required>
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+          <div class="social-row">
+            <a href="https://www.linkedin.com/company/jp-it-staffing/" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Tech Domains</h4>
+          <ul>
+            <li><a href="solutions.html">Frontend Engineering</a></li>
+            <li><a href="solutions.html">Backend &amp; APIs</a></li>
+            <li><a href="solutions.html">AI &amp; ML</a></li>
+            <li><a href="solutions.html">Cloud &amp; DevOps</a></li>
+            <li><a href="solutions.html">Data Engineering</a></li>
+            <li><a href="solutions.html">Mobile Dev</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get In Touch</h4>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>it@jpitstaffing.com</span></div>
+          <div class="footer-contact-item"><i class="fas fa-phone"></i><span>+1 (307) 263-0633</span></div>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>30 N Gould St, Sheridan, WY 82801</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 JP IT Staffing LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    const fadeEls = document.querySelectorAll('.fade-in-up');
+    const obs = new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:0.1});
+    fadeEls.forEach(el=>obs.observe(el));
+  </script>
+</body>
+</html>
